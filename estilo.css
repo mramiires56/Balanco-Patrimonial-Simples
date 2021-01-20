@@ -1,0 +1,52 @@
+form{
+ background: #00FFFF;
+ padding-top: 10px;
+  padding-bottom: 47px;
+  padding-left: 80px;
+  border: 1px solid black;
+  width: 700px;
+  height: 200px;
+}
+
+.ativos{
+	border-radius: 5px;
+}
+
+.enviar {
+    background-color: #00e600;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+.limpar {
+    background-color: #ff1a1a;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+button{
+    background-color: #4dc3ff;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    position: absolute;
+    margin-left: 4px;
+
+}
