@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Balanço Patrimonial</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="balanco.js"></script>
+</head>
+<body>
+	<form name="formulario" id="formulario">
+		<h1>Balanço Patrimonial</h1>
+		
+		<label for="ativos">Valor dos Bens e Direitos: R$<input type="text" name="ativos" id="ativos" placeholder="0.00" required></label><br><br>
+
+		<label for="passivos">Valor das Obrigações: R$<input type="text" name="passivos" id="passivos" placeholder="0.00" required></label><br><br>
+
+		
+		<input type="submit" class="enviar" onclick="Enviar();" value="Enviar">
+
+		<input type="reset" class="limpar" onclick="Cancelar();" value="Limpar">
+
+		<button><a href="calculadora/calculadora.html" target="_blank">Utilizar Calculadora</a></button>
+
+	</form>
+
+</body>
+</html>
